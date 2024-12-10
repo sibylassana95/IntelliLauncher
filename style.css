@@ -115,6 +115,7 @@ h1, h2 {
 }
 
 #hero h1 {
+    margin-top:10px;
     font-size: 3.5em;
     margin-bottom: 1rem;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
