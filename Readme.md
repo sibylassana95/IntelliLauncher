@@ -88,6 +88,9 @@ for /D %%d in (*) do (
 exit
 ```
 
+## Contributions  🤝
+Si vous souhaitez contribuer à ce projet, vous pouvez le faire en suivant ces étapes:
+
 - 🐛 **Signaler des Bugs** : Ouvrez une issue pour tout erreur ou comportement inattendu.
 - 💡 **Suggérer des Améliorations** : Vous avez une idée ? Nous aimerions l'entendre !
 - 🛠️ **Soumettre des Pull Requests** : Vous avez apporté des améliorations ? Ouvrez une PR avec une description claire.
