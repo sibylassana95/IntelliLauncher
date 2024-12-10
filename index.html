@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliLauncher - Gestionnaire de Projets IntelliJ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+                <li><a href="#prerequis">Prérequis</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#utilisation">Utilisation</a></li>
+                <li><a href="#contribuer">Contribuer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>🚀 IntelliLauncher</h1>
+            <p class="hero-description">Optimisez votre flux de travail IntelliJ en ouvrant automatiquement plusieurs projets dans des fenêtres séparées</p>
+            
+            <a href="https://github.com/sibylassana95/IntelliLauncher" class="github-link" target="_blank" rel="noopener noreferrer">
+                <svg class="github-icon" viewBox="0 0 16 16" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+                Voir sur GitHub
+            </a>
+
+            <div class="badges">
+                <img src="https://img.shields.io/badge/Plateforme-Windows-blue?style=for-the-badge&logo=windows" alt="Plateforme">
+                <img src="https://img.shields.io/badge/IntelliJ-IDEA-red?style=for-the-badge&logo=intellij-idea" alt="IntelliJ IDEA">
+                <img src="https://img.shields.io/badge/Langage-Batch-green?style=for-the-badge&logo=windows-terminal" alt="Langage">
+            </div>
+        </section>
+
+        <section id="fonctionnalites">
+            <h2>🎯 Fonctionnalités</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>🖥️ Détection Automatique</h3>
+                    <p>Identifie automatiquement tous vos projets IntelliJ</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🚪 Fenêtres Séparées</h3>
+                    <p>Ouvre chaque projet dans sa propre fenêtre</p>
+                </div>
+                <div class="feature-item">
+                    <h3>⚡ Gain de Temps</h3>
+                    <p>Évite l'ouverture manuelle de chaque projet</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🛠️ Personnalisable</h3>
+                    <p>Adaptez le script selon vos besoins</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="prerequis">
+            <h2>📋 Prérequis</h2>
+            <div class="requirements-list">
+                <div class="requirement-item">
+                    <h3>IntelliJ IDEA</h3>
+                    <p>Installez IntelliJ IDEA sur votre machine</p>
+                </div>
+                <div class="requirement-item">
+                    <h3>Configuration PATH</h3>
+                    <p>Ajoutez <code>idea.bat</code> à votre PATH système</p>
+                </div>
+            </div>
+            <details>
+                <summary>Guide de Configuration du PATH</summary>
+                <div class="setup-guide">
+                    <ol>
+                        <li><strong>Localiser <code>idea.bat</code></strong>
+                            <p>Trouvez le fichier dans le répertoire bin d'IntelliJ IDEA, par exemple :</p>
+                            <code>C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin</code>
+                        </li>
+                        <li><strong>Configurer les Variables d'Environnement</strong>
+                            <p>Ajoutez le chemin au PATH système via les paramètres Windows</p>
+                        </li>
+                    </ol>
+                </div>
+            </details>
+        </section>
+
+        <section id="installation">
+            <h2>💻 Installation</h2>
+            <div class="installation-steps">
+                <div class="step">
+                    <h3>1. Cloner le dépôt</h3>
+                    <pre><code>git clone https://github.com/sibylassana95/IntelliLauncher.git</code></pre>
+                </div>
+                <div class="step">
+                    <h3>2. Placer le script</h3>
+                    <p>Déplacez <code>open_projects.bat</code> à la racine de votre répertoire de travail</p>
+                </div>
+                <div class="step">
+                    <h3>3. Vérifier l'installation</h3>
+                    <p>Assurez-vous que <code>idea.bat</code> est accessible depuis votre terminal</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="utilisation">
+            <h2>📚 Utilisation</h2>
+            <p>Double-cliquez simplement sur le fichier <code>open_projects.bat</code> pour lancer le script.</p>
+            <details>
+                <summary>Voir le code source</summary>
+                <pre><code>@echo off
+REM Parcourt tous les sous-dossiers
+for /D %%d in (*) do (
+    if exist "%%d\.idea" (
+        echo Ouverture de %%d
+        start "" /b idea.bat "%%d"
+    )
+)
+exit</code></pre>
+            </details>
+        </section>
+
+        <section id="contribuer">
+            <h2>🤝 Contribuer</h2>
+            <div class="contribution-ways">
+                <div class="contribution-item">
+                    <h3>🐛 Signaler des Bugs</h3>
+                    <p>Ouvrez une issue pour tout comportement inattendu</p>
+                </div>
+                <div class="contribution-item">
+                    <h3>💡 Suggérer des Améliorations</h3>
+                    <p>Partagez vos idées pour améliorer le projet</p>
+                </div>
+                <div class="contribution-item">
+                    <h3>🛠️ Pull Requests</h3>
+                    <p>Contribuez directement au code source</p>
+                </div>
+                <div class="contribution-item">
+                    <h3>💬 Discussions</h3>
+                    <p>Participez aux discussions de la communauté</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="author">
+            <img src="https://avatars.githubusercontent.com/u/103085452?u=13ace4d88a52056741734e0f802ca7c0053e1e80&v=4" alt="Lassana SIBY" />
+            <p>Créé par <strong>Lassana SIBY</strong></p>
+        </div>
+        <p>&copy; 2024 IntelliLauncher. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
