@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/Language-Batch-green?style=for-the-badge&logo=windows-terminal" alt="Language">
 
 IntelliLauncher est un script qui permet d'ouvrir automatiquement plusieurs projets IntelliJ dans des fenêtres séparées en fonction de la présence d'un dossier .idea dans les sous-dossiers d'un répertoire. Ce script facilite l'ouverture rapide de plusieurs projets sans avoir à ouvrir chaque instance manuellement.
-[Fonctionnalités](#fonctionnalités) • [Prérequis](#prérequis) • [Installation](#installation) • [Utilisation](#utilisation) • [Contribuer](#contribuer) • [Auteur](#auteur)
+[Fonctionnalités](##fonctionnalités) • [Prérequis](##prérequis) • [Installation](##installation) • [Utilisation](##utilisation) • [Contribuer](##contribuer) • [Auteur](##auteur)
 </div>
 
 ## Objectif 🎯
@@ -56,7 +56,7 @@ Clonez ou téléchargez le dépôt GitHub :
 Si vous ne l'avez pas encore, clonez ou téléchargez ce repository sur votre machine locale.
 
 ```bash
-git clone https://github.com/votre-utilisateur/intelli-launcher.git
+git clone https://github.com/sibylassana95/IntelliLauncher.git
 ```
 
 Placez le script à la racine de votre projet :
